@@ -1,0 +1,3 @@
+# Emotion Recognition Through Speech
+
+It is a speech based emotion recognition systems. The analyses were carried out on audio recordings from Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS). After pre-processing the raw audio files, features such as Log-Mel Spectrogram, Mel-Frequency Cepstral Coefficients (MFCCs), pitch and energy were considered. The significance of these features for emotion classification was done using Convolutional Neural Networks (CNNs). On the 14-class (2 genders * 7 emotions) classification task, an accuracy of 86% was achieved with a 4-layer 2 dimensional CNN using the Log-Mel Spectrogram features. 
